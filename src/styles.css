@@ -1,0 +1,504 @@
+@import "./Normalize.css";
+
+.arnolb {
+  background: #303030;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-vb {
+  border-radius: 0px 40px 40px 0px;
+  color: cyan;
+  background-color: #101010;
+  font-size: 15px;
+  width: 42%;
+  height: 100%;
+}
+
+.btn-vb:active {
+  box-shadow: 0 0 8px blue;
+}
+
+.btn-vr {
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  border: 2px solid darkblue;
+  color: darkblue;
+  background-color: #101010;
+  font-size: 16.5px;
+  margin-bottom: 18px;
+}
+
+.btn-vr:active {
+  box-shadow: 0 0 5px blue;
+  border: 2px solid blue;
+  color: blue;
+  font-weight: bold;
+}
+
+.style-alert {
+  color: blue;
+  font-weight: bold;
+}
+
+/* Puebas en React */
+
+.input-vd {
+  height: 94%;
+  width: 150%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding-left: 20px;
+  border-radius: 40px 40px 40px 40px;
+  color: #404040;
+}
+
+.content-div-2 {
+  display: flex;
+  height: 38px;
+  width: 550px;
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 0 4px 10px rgba(200, 200, 200, 0.8);
+  background: white;
+}
+
+.content-div-2:hover {
+  box-shadow: 0 4px 10px rgba(180, 180, 180, 0.8);
+}
+
+.btn-number-1 {
+  border-radius: 50px;
+  border: none;
+  background-image: url(http://localhost:3000/static/media/microfono.f6f1195f9d58f91e93a9.png);
+  font-size: 15px;
+  width: 30px;
+  height: 23px;
+  margin-top: 8px;
+  margin-right: 6px;
+}
+
+.c-img-1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #202020;
+}
+
+.disabled_1 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  box-shadow: 0 0 10px blue;
+  justify-content: center;
+  justify-items: center;
+  opacity: 1;
+}
+
+.disabled_1.disabled_2 {
+  border: 2px solid red;
+  box-shadow: 0 0 10px red;
+  opacity: 0.5;
+}
+
+.b-center {
+  margin-left: 8px;
+}
+
+/* Calculator */
+
+.button-1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 6px;
+  border: 1.5px solid white;
+  background: linear-gradient(darkblue, cyan);
+  margin: 6px;
+  font-size: 38px;
+  font-weight: bold;
+  opacity: 0.8;
+  box-shadow: 1.7px 1.7px 0 rgba(255, 255, 255, 0.9);
+}
+
+.button-1:active {
+  box-shadow: -1.7px -1.7px 0 white;
+}
+
+.operator-button {
+  height: 100px;
+  width: 100px;
+  border-radius: 6px;
+  border: 1.5px solid white;
+  background: linear-gradient(cyan, white);
+  margin: 6px;
+  font-size: 38px;
+  font-weight: bold;
+  opacity: 0.8;
+  box-shadow: 1.7px 1.7px 0 rgba(255, 255, 255, 0.9);
+}
+
+.operator-button:active {
+  box-shadow: 0 0 9px cyan;
+  color: cyan;
+}
+
+.calculator-container {
+  width: 466px;
+  min-height: 510px;
+  margin: 20px;
+  padding: 8px;
+  background: radial-gradient(blue, darkblue, black);
+  border: 1.8px solid black;
+  border-radius: 8px;
+  transition: 0.8s;
+}
+
+.calculator-container:hover {
+    box-shadow: inset 0 0 8px 3px cyan;
+    border: 1px solid white;
+}
+
+.calculator-text {
+  color: white;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 14px;
+  background: radial-gradient(cyan, darkblue);
+  width: 94%;
+  height: 90px;
+  border-radius: 40px;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.calculator-container:hover .calculator-text::before {
+  width: 430px;
+  height: 2px;
+  background: white;
+}
+
+.autor-text {
+  margin: 14px;
+  color: white;
+}
+
+.button-2-delete {
+  height: 100px;
+  width: 100px;
+  border-radius: 6px;
+  border: 1.5px solid white;
+  background: linear-gradient(red, white);
+  margin: 6px;
+  font-size: 38px;
+  font-weight: bold;
+  opacity: 0.8;
+  box-shadow: 1.7px 1.7px 0 rgba(255, 255, 255, 0.9);
+}
+
+.button-2-delete:active {
+  box-shadow: -1.7px -1.7px 0 white;
+}
+
+/******/
+
+.counterDiv {
+  width: 220px;
+  height: 280px;
+  border: 2.5px solid black;
+  border-radius: 8px;
+  background: radial-gradient(black, darkred);
+  margin: 20px;
+}
+
+.counterH3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  height: 50px;
+  width: 100%;
+  margin: auto;
+  margin-top: 17px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.counterH3::before {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 200px;
+  height: 2px;
+  left: 50%;
+  translate: -50%;
+  bottom: -6px;
+  transition: 1s;
+}
+
+.counterButton {
+  width: 50%;
+  height: 45px;
+  margin-top: 28%;
+  border-top: 2px solid white;
+  background: darkred;
+  opacity: 0.6;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+
+.counterButton:active {
+  border-top: 0px;
+  opacity: 1;
+}
+
+.counterButtonD {
+  background: darkred;
+  width: 50%;
+  height: 45px;
+  color: white;
+  opacity: 0.6;
+  font-size: 17px;
+  font-weight: bold;
+  border-top: 2px solid white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.counterButtonD:active {
+  border-top: 0px;
+  opacity: 1;
+}
+
+.styleCanvas {
+  width: 500px;
+  height: 500px;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.counterInput {
+  width: 100%;
+  height: 45px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, black, darkred);
+  border: none;
+  border-top: 1.5px solid white;
+  border-bottom: 1.5px solid white;
+  text-align: center;
+  outline: none;
+  opacity: 0.8;
+}
+
+.counterInput:hover {
+  box-shadow: 0 0 5px white;
+}
+
+.changeColorContainer {
+    background: radial-gradient(black, darkgrey);
+    width: 290px;
+    height: 163px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.changeColorContainer.changeColorContainerOne {
+    background: linear-gradient(black, darkred);
+    border: 3px solid red;
+}
+
+.changeColorContainer.changeColorContainerTwo {
+    background: linear-gradient(black, darkgreen);
+    border: 3px solid green;
+}
+
+.changeColorContainer.changeColorContainerThree {
+    background: linear-gradient(black, darkblue);
+    border: 3px solid blue;
+}
+
+.changeColorH3 {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    height: 80px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.changeColorH3.changeColorH3One {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+.changeColorH3.changeColorH3Two {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+.changeColorH3.changeColorH3Three {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.changeColorButtonOne {
+    background: linear-gradient(darkred, red);
+    width: 33.33%;
+    height: 50px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 0 0 0 8px;
+}
+
+.changeColorButtonOne.changeColorButtonTwo {
+    background: linear-gradient(darkgreen, green);
+}
+
+.changeColorButtonOne.changeColorButtonThree {
+    background: linear-gradient(darkblue, blue);
+}
+
+/* TaskList */
+
+.taskContainer {
+  width: 550px;
+  min-height: 430px;
+  background: linear-gradient(45deg ,rgb(15, 190, 190), rgb(108, 11, 156), rgb(192, 69, 188));
+  margin: 20px;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  border-radius: 8px;
+}
+
+.taskDivForm {
+  width: 92%;
+  height: 40px;
+  translate: 5%;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.taskInput {
+  border: none;
+  outline-style: none;
+  color: #202020;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  border-radius: 5px 0 0 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.taskButton {
+  width: 45px;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  text-align: center;
+  padding: 11px;
+}
+
+.taskButton:hover {
+  color: blue;
+}
+
+.taskH3 {
+  text-align: center;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 10px;
+  position: relative;
+}
+
+.taskH3::before {
+  position: absolute;
+  content: "";
+  background: white;
+  height: 2px;
+  width: 50%;
+  translate: -50%;
+  left: 50%;
+  bottom: -2px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframe animate {
+  0%{
+    transform: rotate(0deg);
+  }
+  %100{
+    transform: rotate(360deg);
+  }
+}
+
+.taskDiv {
+  width: 92%;
+  min-height: 48px;
+  font-size: 18px;
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(115, 25, 179, 0.281);
+  border-radius: 5px;
+  margin-bottom: 3px;
+  box-shadow: 0 0 2px black;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.taskDiv.taskDivCompleted {
+  background-color: rgb(8, 78, 78);
+  text-decoration: line-through;
+  color: white;
+}
+
+.taskText {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+  margin-left: 15px;
+}
+
+.taskIcon {
+  margin: 8px;
+  height: 100%;
+  width: 24px;
+  color: white;
+}
+
+.taskIcon:hover {
+  color: red;
+}
+

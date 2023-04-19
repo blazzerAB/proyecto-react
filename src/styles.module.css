@@ -1,0 +1,91 @@
+.content_div {
+    display: flex;
+    height: 38px;
+    width: 480px;
+    border: 2px solid cyan;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.content_div:hover {
+    box-shadow: 0 0 5px blue;
+}
+
+.btn_vb {
+    border-radius: 0px 40px 40px 0px;
+    color: cyan;
+    background-color: #101010;
+    font-size: 15px;
+    width: 42%;
+    height: 100%;
+}
+
+.btn_vb:active {
+    box-shadow: 0 0 8px blue;
+}
+
+.input_vb {
+    height: 98%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 20px;
+    border-radius: 40px 0 0 40px;
+}
+
+.input_vc {
+    height: 98%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.btn_number_1 {
+    border-radius: 50px;
+    border: none;
+    background-image: url(http://localhost:3000/static/media/microfono.f6f1195f9d58f91e93a9.png);
+    font-size: 15px;
+    width: 30px;
+    height: 23px;
+    margin-top: 8px;
+    margin-right: 6px;
+}
+
+.btn_number_2 {
+    border-radius: 50px;
+    border: none;
+    background-image: url(../public/camara.png);
+    font-size: 15px;
+    width: 30px;
+    height: 23px;
+    margin-top: 8px;
+    margin-right: 6px;
+}
+
+.btn_number_3 {
+    border-radius: 50px;
+    border: none;
+    background-image: url(../public/lupa.jpg);
+    font-size: 15px;
+    width: 30px;
+    height: 23px;
+    margin-top: 8px;
+    margin-right: 6px;
+}
+
+.btn_number_4 {
+    border-radius: 50px;
+    border: none;
+    background-image: url(../public/x.png);
+    font-size: 15px;
+    width: 30px;
+    height: 23px;
+    margin-top: 8px;
+    margin-right: 14px;
+}
+
+.example_margin {
+    margin-left: 5px;
+}
